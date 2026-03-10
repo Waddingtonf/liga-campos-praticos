@@ -7,8 +7,7 @@ import json, pathlib, textwrap, sys
 if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8','utf8'):
     sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf-8', buffering=1)
 
-BASE = pathlib.Path('C:/Users/l5857/TCC - LETICIA')
-DATA = (BASE / 'data.json').read_text(encoding='utf-8')
+BASE = pathlib.Path(__file__).parent
 
 # ═══════════════════════════════════════════════════════════
 #  CSS
@@ -1134,6 +1133,42 @@ body.filter-open #unitView{padding-top:var(--sp-4);}
 .vsb-labels{display:flex;gap:var(--sp-4);flex-wrap:wrap;}
 .vsb-lbl{display:flex;align-items:center;gap:4px;font-size:var(--fs-xs);color:var(--muted);}
 .vsb-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
+
+/* ══════════════════════════════════════════════════════════════
+   LOADING OVERLAY
+══════════════════════════════════════════════════════════════ */
+#appLoading{
+  position:fixed;inset:0;z-index:1000;
+  background:var(--bg);
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;pointer-events:none;
+  transition:opacity .35s var(--ease);
+}
+#appLoading.vis{opacity:1;pointer-events:all;}
+.al-inner{
+  display:flex;flex-direction:column;align-items:center;gap:var(--sp-4);
+  padding:var(--sp-8);
+}
+.al-spinner{
+  width:44px;height:44px;border-radius:50%;
+  border:3px solid rgba(255,255,255,.07);
+  border-top-color:var(--cecan);
+  animation:spin .8s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg);}}
+.al-title{
+  font-size:var(--fs-lg);font-weight:800;
+  background:linear-gradient(135deg,var(--cecan),var(--hla));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+.al-sub{
+  font-size:var(--fs-sm);color:var(--muted);
+  animation:pulse 1.6s ease-in-out infinite;
+}
+#appLoading.error .al-spinner{border-top-color:var(--full);animation:none;}
+#appLoading.error .al-sub{color:var(--full);}
+@keyframes pulse{0%,100%{opacity:.5;}50%{opacity:1;}}
 """
 
 # ═══════════════════════════════════════════════════════════
@@ -1143,9 +1178,8 @@ JS = r"""
 // ─────────────────────────────────────────────────────────
 // DATA & STATE
 // ─────────────────────────────────────────────────────────
-const DATA  = __DATA__;
-const TODAY = new Date(2026,2,10);
-const SHEETS= Object.keys(DATA);
+let DATA    = {};          // preenchido via /api/data ao carregar
+const TODAY = new Date(); // data real de hoje
 
 let sheet    = 'MARÇO';
 let curUnit  = null;
@@ -1954,12 +1988,50 @@ function zoomMapIn()   { _map.zoomIn(); }
 function zoomMapOut()  { _map.zoomOut(); }
 
 // ─────────────────────────────────────────────────────────
-// INIT
+// INIT — busca dados da API e inicializa a UI
 // ─────────────────────────────────────────────────────────
-// Populate month tabs
-(function(){
+async function initApp(){
+  const loader = document.getElementById('appLoading');
+  const alSub  = document.getElementById('alSub');
+  loader.classList.add('vis');
+
+  // Tenta cache local (validade 5 min) para carregamento instantaneo
+  try{
+    const cached = sessionStorage.getItem('liga_data');
+    const cachedTs = sessionStorage.getItem('liga_data_ts');
+    if(cached && cachedTs && (Date.now()-+cachedTs) < 300000){
+      DATA = JSON.parse(cached);
+      bootUI();
+      loader.classList.remove('vis');
+      return;
+    }
+  }catch(e){}
+
+  try{
+    alSub.textContent = 'Buscando dados atualizados...';
+    const resp = await fetch('/api/data');
+    if(!resp.ok) throw new Error('HTTP '+resp.status);
+    DATA = await resp.json();
+    try{
+      sessionStorage.setItem('liga_data', JSON.stringify(DATA));
+      sessionStorage.setItem('liga_data_ts', Date.now());
+    }catch(e){}
+    bootUI();
+    loader.classList.remove('vis');
+    // Atualiza o indicador de ultima atualizacao
+    const dot = document.querySelector('.live-dot');
+    if(dot) dot.title = 'Dados atualizados em ' + new Date().toLocaleTimeString('pt-BR');
+  }catch(err){
+    alSub.textContent = 'Erro ao carregar dados: ' + err.message;
+    loader.classList.add('error');
+  }
+}
+
+function bootUI(){
+  // Populate month tabs
   const MLABELS={'MARÇO':'Mar','FEVEREIRO (PLANEJAMENTO)':'Fev','JANEIRO(PLANEJAMENTO)':'Jan'};
   const tabs=document.getElementById('monthTabs');
+  tabs.innerHTML='';
   Object.keys(DATA).forEach(k=>{
     const btn=document.createElement('button');
     btn.className='mtab'+(k==='MARÇO'?' active':'');
@@ -1977,13 +2049,13 @@ function zoomMapOut()  { _map.zoomOut(); }
     });
     tabs.appendChild(btn);
   });
-})();
 
-buildMapView();
-updateBreadcrumb();
+  buildMapView();
+  updateBreadcrumb();
+  try{ if(!localStorage.getItem('liga_howto_done')) setTimeout(startHowto,700); }catch(e){}
+}
 
-// Show how-to on first visit
-try{ if(!localStorage.getItem('liga_howto_done')) setTimeout(startHowto,700); }catch(e){}
+initApp();
 """
 
 # ═══════════════════════════════════════════════════════════
@@ -2001,6 +2073,15 @@ HTML = f"""<!DOCTYPE html>
 <style>{CSS}</style>
 </head>
 <body>
+
+<!-- LOADING OVERLAY -->
+<div id="appLoading" role="status" aria-live="polite" aria-label="Carregando">
+  <div class="al-inner">
+    <div class="al-spinner"></div>
+    <div class="al-title">LIGA Campos Práticos</div>
+    <div class="al-sub" id="alSub">Carregando dados...</div>
+  </div>
+</div>
 
 <!-- SKIP LINK (accessibility) -->
 <a class="skip-link" href="#views">Pular para conteúdo</a>
@@ -2126,7 +2207,7 @@ HTML = f"""<!DOCTYPE html>
 </div>
 
 <script>
-{JS.replace('__DATA__', DATA)}
+{JS}
 </script>
 </body>
 </html>"""
