@@ -2,7 +2,10 @@
 LIGA Campo Prático — Dashboard v3
 Visual Map: 3-level navigation  MAP → UNIT → SECTOR (cinema seats)
 """
-import json, pathlib, textwrap
+import json, pathlib, textwrap, sys
+
+if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8','utf8'):
+    sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf-8', buffering=1)
 
 BASE = pathlib.Path('C:/Users/l5857/TCC - LETICIA')
 DATA = (BASE / 'data.json').read_text(encoding='utf-8')
@@ -2131,4 +2134,4 @@ HTML = f"""<!DOCTYPE html>
 out = BASE / 'dashboard.html'
 out.write_text(HTML, encoding='utf-8')
 sz = len(HTML)//1024
-print(f"✅  dashboard.html gerado  ({sz} KB)")
+print(f"[OK] dashboard.html gerado  ({sz} KB)")
