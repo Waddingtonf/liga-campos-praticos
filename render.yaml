@@ -3,15 +3,11 @@ services:
     name: liga-campos-praticos
     runtime: python
     region: oregon
+    plan: free
 
-    # Instala dependências e gera o dashboard.html (sem dados embutidos)
     buildCommand: pip install -r requirements.txt && python builder3.py
-
-    # Inicia o servidor Flask via Gunicorn
     startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers 2 --timeout 60
 
     envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.9
       - key: FLASK_ENV
         value: production
