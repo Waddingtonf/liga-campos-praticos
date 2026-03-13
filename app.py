@@ -54,8 +54,8 @@ def _parse_sheet(rows: list[list[str]]) -> list[dict]:
     for i, row in enumerate(rows):
         if i < 2:
             continue
-        row = (row + [""] * 9)[:9]
-        unidade, setor, turno, prof, cap_s, occ_s, curso, tipo, periodo = row
+        row = (row + [""] * 10)[:10]
+        unidade, setor, turno, prof, cap_s, occ_s, curso, tipo, periodo, aluno = row
 
         unidade = unidade.strip().upper()
         if not unidade or unidade in ("UNIDADE", "UNNAMED: 0"):
@@ -79,6 +79,7 @@ def _parse_sheet(rows: list[list[str]]) -> list[dict]:
             "curso":         curso.strip(),
             "tipo_ocupacao": tipo.strip(),
             "periodo":       periodo.strip(),
+            "aluno":         aluno.strip(),
         })
     return data
 
@@ -86,8 +87,29 @@ def _parse_sheet(rows: list[list[str]]) -> list[dict]:
 def _fetch_from_sheets() -> dict:
     """Busca dados frescos do Google Sheets e retorna o dict completo."""
     import requests as req
+    import re
+    
+    tabs = SHEET_TABS
+    try:
+        # Busca dinamicamente os nomes das abas (sem precisar de API/Auth)
+        edit_url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/edit?usp=sharing"
+        r = req.get(edit_url, timeout=15)
+        r.raise_for_status()
+        matches = re.findall(r'docs-sheet-tab-caption.*?>(.*?)<', r.text)
+        
+        dynamic_tabs = []
+        for m in matches:
+            name = " ".join(m.split())
+            if name and name not in dynamic_tabs:
+                dynamic_tabs.append(name)
+                
+        if dynamic_tabs:
+            tabs = dynamic_tabs
+    except Exception as e:
+        print(f"[LIGA] Erro ao buscar abas dinamicamente, usando fallback: {e}")
+
     all_data = {}
-    for tab in SHEET_TABS:
+    for tab in tabs:
         url = (
             f"https://docs.google.com/spreadsheets/d/{SHEET_ID}"
             f"/gviz/tq?tqx=out:csv&sheet={quote(tab)}"
