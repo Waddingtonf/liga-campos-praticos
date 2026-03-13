@@ -55,7 +55,7 @@ def _parse_sheet(rows: list[list[str]]) -> list[dict]:
         if i < 2:
             continue
         row = (row + [""] * 10)[:10]
-        unidade, setor, turno, prof, cap_s, occ_s, curso, tipo, periodo, aluno = row
+        unidade, setor, turno, prof, cap_s, occ_s, curso, aluno, tipo, periodo = row
 
         unidade = unidade.strip().upper()
         if not unidade or unidade in ("UNIDADE", "UNNAMED: 0"):
