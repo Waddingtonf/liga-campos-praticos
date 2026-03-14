@@ -16,6 +16,8 @@ import os
 import time
 from urllib.parse import quote
 
+import gspread
+
 from flask import Flask, jsonify, send_from_directory, Response
 
 app = Flask(__name__, static_folder=None)
@@ -85,40 +87,23 @@ def _parse_sheet(rows: list[list[str]]) -> list[dict]:
 
 
 def _fetch_from_sheets() -> dict:
-    """Busca dados frescos do Google Sheets e retorna o dict completo."""
-    import requests as req
-    import re
-    
-    tabs = SHEET_TABS
+    """Busca dados frescos do Google Sheets usando gspread e retorna o dict completo."""
     try:
-        # Busca dinamicamente os nomes das abas (sem precisar de API/Auth)
-        edit_url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/edit?usp=sharing"
-        r = req.get(edit_url, timeout=15)
-        r.raise_for_status()
-        matches = re.findall(r'docs-sheet-tab-caption.*?>(.*?)<', r.text)
+        # Autentica na Google API usando a service account fornecida
+        gc = gspread.service_account(filename='gen-lang-client-0965804770-1b0674d6e028.json')
+        sh = gc.open_by_key(SHEET_ID)
         
-        dynamic_tabs = []
-        for m in matches:
-            name = " ".join(m.split())
-            if name and name not in dynamic_tabs:
-                dynamic_tabs.append(name)
-                
-        if dynamic_tabs:
-            tabs = dynamic_tabs
+        all_data = {}
+        for worksheet in sh.worksheets():
+            tab = worksheet.title
+            rows = worksheet.get_all_values()
+            all_data[tab] = _parse_sheet(rows)
+            
+        return all_data
     except Exception as e:
-        print(f"[LIGA] Erro ao buscar abas dinamicamente, usando fallback: {e}")
-
-    all_data = {}
-    for tab in tabs:
-        url = (
-            f"https://docs.google.com/spreadsheets/d/{SHEET_ID}"
-            f"/gviz/tq?tqx=out:csv&sheet={quote(tab)}"
-        )
-        resp = req.get(url, timeout=30)
-        resp.raise_for_status()
-        rows = list(csv.reader(io.StringIO(resp.text)))
-        all_data[tab] = _parse_sheet(rows)
-    return all_data
+        print(f"[LIGA] Erro ao buscar dados do Google Sheets API via gspread: {e}")
+        # Tentar reverter fallback em caso extremo ou retornar o que tem no momento (vazio)
+        return {}
 
 
 def get_data() -> dict:
