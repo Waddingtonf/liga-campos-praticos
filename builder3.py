@@ -1665,11 +1665,23 @@ function buildSectorPanel(unit, setor){
 
       const availFree = rOcc!==null ? Math.max(0,rCap-rOcc) : 0;
 
+      const studentsTxt = row.alunos && row.alunos.length > 0 
+        ? `<div class="prof-students">${row.alunos.map(a => `<span class="prof-student-badge"><svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> ${a}</span>`).join('')}</div>`
+        : '';
+
+      let seats_html = '';
+      if(rOcc!==null){
+        for(let j=1;j<=rCap;j++) seats_html+=`<div class="seat ${j<=rOcc?'occ':'free'}"><span class="seat-num">${j}</span></div>`;
+        if(isOver) for(let j=rCap+1;j<=rOcc;j++) seats_html+=`<div class="seat occ over"><span class="seat-num">${j}</span></div>`;
+      } else {
+        for(let j=1;j<=rCap;j++) seats_html+=`<div class="seat free" style="opacity:.4"><span class="seat-num">${j}</span></div>`;
+      }
+
       profRows+=`<div class="prof-row">
         <div class="prof-row-header">
           <div style="display:flex;flex-direction:column;gap:3px">
             <div class="prof-name">${row.profissional}</div>
-            ${courseTxt}${periodTxt}
+            ${courseTxt}${periodTxt}${studentsTxt}
           </div>
           <div style="display:flex;flex-direction:column;align-items:flex-end;gap:3px">
             ${actBadge}
@@ -1678,7 +1690,7 @@ function buildSectorPanel(unit, setor){
             </span>
           </div>
         </div>
-        <div class="seat-grid">${seats}</div>
+        <div class="seat-grid">${seats_html}</div>
         <div class="seats-legend">
           <div class="sl-item"><div class="sl-sq" style="background:rgba(248,113,113,.4)"></div>Ocupado (${rOcc!==null?rOcc:0})</div>
           <div class="sl-item"><div class="sl-sq" style="background:rgba(74,222,128,.25);border:1px dashed rgba(74,222,128,.4)"></div>Livre (${availFree})</div>
