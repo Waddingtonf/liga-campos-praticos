@@ -1806,6 +1806,14 @@ function buildSectorPanel(unit, setor){
 
       const availFree = rOcc!==null ? Math.max(0,rCap-rOcc) : 0;
 
+      let seats = '';
+      if(rOcc!==null){
+        for(let j=1;j<=rCap;j++) seats+=`<div class="seat ${j<=rOcc?'occ':'free'}"><span class="seat-num">${j}</span></div>`;
+        if(isOver) for(let j=rCap+1;j<=rOcc;j++) seats+=`<div class="seat occ over"><span class="seat-num">${j}</span></div>`;
+      } else {
+        for(let j=1;j<=rCap;j++) seats+=`<div class="seat free" style="opacity:.4"><span class="seat-num">${j}</span></div>`;
+      }
+
       profRows+=`<div class="prof-row">
         <div class="prof-row-header">
           <div style="display:flex;flex-direction:column;gap:3px">
