@@ -50,4 +50,4 @@ python -m http.server 8788
 
 ---
 
-Trabalho de Conclusão de Curso — Leticia Waddington
+Trabalho de Conclusão de Curso
