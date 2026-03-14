@@ -90,8 +90,17 @@ def _fetch_from_sheets() -> dict:
     """Busca dados frescos do Google Sheets usando gspread e retorna o dict completo."""
     try:
         # Autentica na Google API usando a service account fornecida
-        cred_path = os.path.join(BASE_DIR, 'gen-lang-client-0965804770-1b0674d6e028.json')
-        gc = gspread.service_account(filename=cred_path)
+        # 1. Tenta carregar através de Variável de Ambiente (seguro para o Render)
+        gcp_cred_env = os.environ.get('GCP_CREDENTIALS')
+        if gcp_cred_env:
+            import json
+            creds_dict = json.loads(gcp_cred_env)
+            gc = gspread.service_account_from_dict(creds_dict)
+        else:
+            # 2. Fallback para arquivo local (para desenvolvimento local)
+            cred_path = os.path.join(BASE_DIR, 'gen-lang-client-0965804770-1b0674d6e028.json')
+            gc = gspread.service_account(filename=cred_path)
+            
         sh = gc.open_by_key(SHEET_ID)
         
         all_data = {}
