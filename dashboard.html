@@ -873,8 +873,8 @@ body{
 /* ── SEAT GRID ───────────────────────────────────────────── */
 .seat-grid{
   display:flex;flex-wrap:wrap;gap:var(--sp-1)+2px;
-  gap:7px;
-  align-items:flex-end;
+  gap:10px;
+  align-items:flex-start;
 }
 .seat{
   width:38px;height:46px;border-radius:8px 8px 6px 6px;
@@ -903,6 +903,17 @@ body{
   background:currentColor;opacity:.32;
 }
 .seat-num{font-size:var(--fs-xs);font-weight:700;z-index:1;position:relative;opacity:.8;}
+
+/* ── SEAT WRAP & NAME ── */
+.seat-wrap {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  width: 54px; /* Fixed width to keep names aligned */
+}
+.seat-name {
+  font-size: 0.58rem; color: #a5b4fc; text-align: center;
+  line-height: 1.1; word-break: break-word; font-weight: 600;
+  max-width: 54px; min-height: 1.2em;
+}
 
 .seat.occ{background:rgba(248,113,113,.18);outline:1.5px solid rgba(248,113,113,.5);color:var(--full);}
 .seat.occ::before{border-color:var(--full);}
@@ -1798,10 +1809,20 @@ function buildSectorPanel(unit, setor){
 
       let seats_html = '';
       if(rOcc!==null){
-        for(let j=1;j<=rCap;j++) seats_html+=`<div class="seat ${j<=rOcc?'occ':'free'}"><span class="seat-num">${j}</span></div>`;
-        if(isOver) for(let j=rCap+1;j<=rOcc;j++) seats_html+=`<div class="seat occ over"><span class="seat-num">${j}</span></div>`;
+        for(let j=1;j<=rCap;j++) {
+          const studentName = (row.alunos && row.alunos[j-1]) ? row.alunos[j-1] : '';
+          const nameHtml = studentName ? `<div class="seat-name">${studentName}</div>` : '';
+          seats_html += `<div class="seat-wrap"><div class="seat ${j<=rOcc?'occ':'free'}"><span class="seat-num">${j}</span></div>${nameHtml}</div>`;
+        }
+        if(isOver) {
+          for(let j=rCap+1;j<=rOcc;j++) {
+            const studentName = (row.alunos && row.alunos[j-1]) ? row.alunos[j-1] : '';
+            const nameHtml = studentName ? `<div class="seat-name">${studentName}</div>` : '';
+            seats_html += `<div class="seat-wrap"><div class="seat occ over"><span class="seat-num">${j}</span></div>${nameHtml}</div>`;
+          }
+        }
       } else {
-        for(let j=1;j<=rCap;j++) seats_html+=`<div class="seat free" style="opacity:.4"><span class="seat-num">${j}</span></div>`;
+        for(let j=1;j<=rCap;j++) seats_html+=`<div class="seat-wrap"><div class="seat free" style="opacity:.4"><span class="seat-num">${j}</span></div></div>`;
       }
 
       profRows+=`<div class="prof-row">
