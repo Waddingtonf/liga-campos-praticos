@@ -1238,6 +1238,15 @@ body.filter-open #unitView{padding-top:var(--sp-4);}
 #appLoading.error .al-spinner{border-top-color:var(--full);animation:none;}
 #appLoading.error .al-sub{color:var(--full);}
 @keyframes pulse{0%,100%{opacity:.5;}50%{opacity:1;}}
+
+  /* ── STUDENT BADGES ── */
+  .prof-students { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+  .prof-student-badge {
+    font-size: .65rem; padding: 2px 6px; border-radius: 4px;
+    background: rgba(192, 132, 252, 0.1); color: var(--cecan);
+    border: 1px solid rgba(192, 132, 252, 0.2);
+    display: inline-flex; align-items: center; gap: 3px;
+  }
 </style>
 </head>
 <body>
@@ -1784,23 +1793,15 @@ function buildSectorPanel(unit, setor){
       const hasAct = isActive(row.periodo);
       const isOver = rOcc!==null && rOcc > rCap;
 
-      // Build seats
-      let seats='';
-      const displayCap = Math.max(rCap, rOcc||0);
-      for(let i=1;i<=displayCap;i++){
-        let seatClass='free', seatLabel=i+'';
-        if(rOcc===null){ seatClass='ln'; }
-        else if(i<=rOcc && i<=rCap){ seatClass='occ'; }
-        else if(i>rCap){ seatClass='over'; seatLabel='!'; }
-        const seatDelay=((i-1)*0.028).toFixed(3);
-        seats+=`<div class="seat ${seatClass}" style="animation-delay:${seatDelay}s" title="${seatClass==='occ'?'Ocupado':seatClass==='free'?'Disponível':'Excede cap.'}">
-          <span class="seat-num">${seatLabel}</span>
-        </div>`;
-      }
 
       const actBadge=hasAct?`<div class="prof-active"><div class="apd"></div>ATIVO</div>`:'';
       const courseTxt=row.curso?`<div class="prof-course"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> ${row.curso}</div>`:'';
       const periodTxt=row.periodo?`<div class="prof-period"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> ${row.periodo} ${hasAct?'<span style="color:#4ade80">●</span>':''}</div>`:'';
+      
+      const studentsTxt = row.alunos && row.alunos.length > 0 
+        ? `<div class="prof-students">${row.alunos.map(a => `<span class="prof-student-badge"><svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> ${a}</span>`).join('')}</div>`
+        : '';
+
       const overWarn=isOver?`<div class="over-cap-warn"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Capacidade excedida (+${rOcc-rCap})</div>`:'';
 
       const availFree = rOcc!==null ? Math.max(0,rCap-rOcc) : 0;
@@ -1809,7 +1810,7 @@ function buildSectorPanel(unit, setor){
         <div class="prof-row-header">
           <div style="display:flex;flex-direction:column;gap:3px">
             <div class="prof-name">${row.profissional}</div>
-            ${courseTxt}${periodTxt}
+            ${courseTxt}${periodTxt}${studentsTxt}
           </div>
           <div style="display:flex;flex-direction:column;align-items:flex-end;gap:3px">
             ${actBadge}

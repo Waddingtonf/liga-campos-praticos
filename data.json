@@ -1,5 +1,2889 @@
 {
+  "JANEIRO(PLANEJAMENTO)": [
+    {
+      "unidade": "POL",
+      "setor": "UTI I",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI I",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI II",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI II",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "FERNANDO MEDEIROS",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "FERNANDO MEDEIROS",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UNIPOL",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UNIPOL",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CLÓVIS SARINHO",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CLÓVIS SARINHO",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "JOSÉ AMÉRICO",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "JOSÉ AMÉRICO",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 4.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 4.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CME",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CME",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CSO",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CSO",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "UCI",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "UCI",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "JOSÉ TAVARES",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "JOSÉ TAVARES",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "NOSSA SENHORA DE FÁTIMA",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "NOSSA SENHORA DE FÁTIMA",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CEMES",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CEMES",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "LIONS 1",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "LIONS 1",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "MARIA ALICE",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "MARIA ALICE",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "LIONS 2",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "LIONS 2",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "",
+      "turno": "",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 3.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 3.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CME",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CME",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "QUIMIOTERAPIA",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": 2.0,
+      "curso": "ONCOLOGIA P. TÉCNICOS",
+      "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
+      "periodo": "12/01/2026 a 10/02/2026"
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "QUIMIOTERAPIA",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": 2.0,
+      "curso": "ONCOLOGIA P. TÉCNICOS",
+      "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
+      "periodo": "12/01/2026 a 10/02/2026"
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RM",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 2.0,
+      "ocupacao": 1.0,
+      "curso": "DIAGNÓSTICO P. IMAGEM",
+      "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
+      "periodo": "24/11/2025 a 28/01/2026"
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RM",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 2.0,
+      "ocupacao": 2.0,
+      "curso": "DIAGNÓSTICO P. IMAGEM",
+      "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
+      "periodo": "24/11/2025 a 28/01/2026"
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RM",
+      "turno": "NOITE",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 2.0,
+      "ocupacao": 0.0,
+      "curso": "DIAGNÓSTICO P. IMAGEM",
+      "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
+      "periodo": "24/11/2025 a 28/01/2026"
+    },
+    {
+      "unidade": "POL",
+      "setor": "TC",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "RAIO-X",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "TC",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "TC",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "RAIO-X",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "RAIO-X",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "MAMOGRAFIA",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": 1.0,
+      "curso": "DIAGNÓSTICO P. IMAGEM",
+      "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
+      "periodo": "24/11/2025 a 28/01/2026"
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "MAMOGRAFIA",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 2.0,
+      "ocupacao": 2.0,
+      "curso": "DIAGNÓSTICO P. IMAGEM",
+      "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
+      "periodo": "24/11/2025 a 28/01/2026"
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "DO",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": 0.0,
+      "curso": "DIAGNÓSTICO P. IMAGEM",
+      "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
+      "periodo": "24/11/2025 a 28/01/2026"
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RI",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": 0.0,
+      "curso": "DIAGNÓSTICO P. IMAGEM",
+      "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
+      "periodo": "24/11/2025 a 28/01/2026"
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "QUIMIOTERAPIA",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": 0.0,
+      "curso": "ENFERMAGEM ONCO.",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "QUIMIOTERAPIA",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": 0.0,
+      "curso": "ENFERMAGEM ONCO.",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "",
+      "turno": "",
+      "profissional": "",
+      "capacidade": 0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "FERNANDO MEDEIROS",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "FERNANDO MEDEIROS",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UNIPOL",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UNIPOL",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CLÓVIS SARINHO",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CLÓVIS SARINHO",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI I",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI I",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI II",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI II",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CME",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CME",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI I",
+      "turno": "MANHÃ",
+      "profissional": "DENTISTA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "JOSÉ TAVARES",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "JOSÉ TAVARES",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "PRONTO SOCORRO",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "PRONTO SOCORRO",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "SERVIÇO SOCIAL",
+      "turno": "TARDE",
+      "profissional": "ASSISTENTE SOCIAL",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "FARMÁCIA CLÍNICA",
+      "turno": "MANHÃ",
+      "profissional": "FARMACÊUTICO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "FARMÁCIA CLÍNICA",
+      "turno": "TARDE",
+      "profissional": "FARMACÊUTICO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "NUTRIÇÃO CLÍNICA",
+      "turno": "MANHÃ",
+      "profissional": "NUTRICIONISTA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "NUTRIÇÃO CLÍNICA",
+      "turno": "TARDE",
+      "profissional": "NUTRICIONISTA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "PSICOLOGIA",
+      "turno": "MANHÃ",
+      "profissional": "PSICOLOGIA",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "PSICOLOGIA",
+      "turno": "MANHÃ",
+      "profissional": "PSICOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CSO",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CSO",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "UCI",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "UCI",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "LIONS II",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "LIONS II",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "JOSE TAVARES",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "JOSE TAVARES",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CEMES",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CEMES",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "MARIA ALICE",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "MARIA ALICE",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RADIOTERAPIA",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RADIOTERAPIA",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "PESQUISA CLÍNICA",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "PESQUISA CLÍNICA",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "ODONTOLOGIA",
+      "turno": "MANHÃ",
+      "profissional": "DENTISTA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "ODONTOLOGIA",
+      "turno": "TARDE",
+      "profissional": "DENTISTA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "",
+      "turno": "",
+      "profissional": "",
+      "capacidade": 0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "",
+      "turno": "",
+      "profissional": "",
+      "capacidade": 0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    }
+  ],
+  "FEVEREIRO (PLANEJAMENTO)": [
+    {
+      "unidade": "CECAN",
+      "setor": "QUIMIOTERAPIA",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "QUIMIOTERAPIA",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RM",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RM",
+      "turno": "INTERMEDIÁRIO",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RM",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RM",
+      "turno": "NOITE",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "MAMOGRAFIA",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "MAMOGRAFIA",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "DO",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RI",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RADIOTERAPIA",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 4.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RADIOTERAPIA",
+      "turno": "INTERMEDIÁRIO",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 4.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RADIOTERAPIA",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 4.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "QUIMIOTERAPIA",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "QUIMIOTERAPIA",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RADIOTERAPIA",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "RADIOTERAPIA",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "PESQUISA CLÍNICA",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "PESQUISA CLÍNICA",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "MEDICINA NUCLEAR",
+      "turno": "MANHÃ",
+      "profissional": "BIOMEDICINA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "MEDICINA NUCLEAR",
+      "turno": "TARDE",
+      "profissional": "BIOMEDICINA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "MEDICINA NUCLEAR",
+      "turno": "MANHÃ",
+      "profissional": "FARMÁCIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "MEDICINA NUCLEAR",
+      "turno": "TARDE",
+      "profissional": "FARMÁCIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "MEDICINA NUCLEAR",
+      "turno": "MANHÃ",
+      "profissional": "NUTRIÇÃO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "MEDICINA NUCLEAR",
+      "turno": "TARDE",
+      "profissional": "NUTRIÇÃO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "MEDICINA NUCLEAR",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "MEDICINA NUCLEAR",
+      "turno": "TARDE",
+      "profissional": "ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "FARMÁCIA CLÍNICA",
+      "turno": "MANHÃ",
+      "profissional": "FARMÁCIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "FARMÁCIA CLÍNICA",
+      "turno": "TARDE",
+      "profissional": "FARMÁCIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "FARMÁCIA MANIPULAÇÃO",
+      "turno": "MANHÃ",
+      "profissional": "FARMÁCIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "CECAN",
+      "setor": "FARMÁCIA MANIPULAÇÃO",
+      "turno": "TARDE",
+      "profissional": "FARMÁCIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CSO",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CSO",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "UCI",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "UCI",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "JOSÉ TAVARES",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "JOSÉ TAVARES",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "NOSSA SENHORA DE FÁTIMA",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "NOSSA SENHORA DE FÁTIMA",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CEMES",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CEMES",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "LIONS 1",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "LIONS 1",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "MARIA ALICE",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "MARIA ALICE",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "LIONS 2",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "LIONS 2",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "",
+      "turno": "",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 3.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 3.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CME",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CME",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "TC",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "TC",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "RAIO-X",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "RAIO-X",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 4.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 4.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CME",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CME",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CSO",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CSO",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "UCI",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "UCI",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "JOSÉ TAVARES",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "JOSÉ TAVARES",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "NOSSA SENHORA DE FÁTIMA",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "NOSSA SENHORA DE FÁTIMA",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CEMES",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CEMES",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "LIONS 1",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "LIONS 1",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "MARIA ALICE",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "MARIA ALICE",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "LIONS 2",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "LIONS 2",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CME",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "CME",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "FISIOTERAPIA",
+      "turno": "MANHÃ",
+      "profissional": "FISIOTERAPEUTA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "FISIOTERAPIA",
+      "turno": "TARDE",
+      "profissional": "FISIOTERAPEUTA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "FARMÁCIA CLÍNICA",
+      "turno": "MANHÃ",
+      "profissional": "FARMACÊUTICO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "FARMÁCIA CLÍNICA",
+      "turno": "TARDE",
+      "profissional": "FARMACÊUTICO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "FARMÁCIA MANIPULAÇÃO",
+      "turno": "MANHÃ",
+      "profissional": "FARMACÊUTICO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "FARMÁCIA MANIPULAÇÃO",
+      "turno": "TARDE",
+      "profissional": "FARMACÊUTICO",
+      "capacidade": 0.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "NUTRIÇÃO CLÍNICA",
+      "turno": "MANHÃ",
+      "profissional": "NUTRICIONISTA",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "NUTRIÇÃO CLÍNICA",
+      "turno": "TARDE",
+      "profissional": "NUTRICIONISTA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "NUTRIÇÃO PRODUÇÃO",
+      "turno": "MANHÃ",
+      "profissional": "NUTRICIONISTA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "NUTRIÇÃO PRODUÇÃO",
+      "turno": "TARDE",
+      "profissional": "NUTRICIONISTA",
+      "capacidade": 0.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "IMAGEM GERAL",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "IMAGEM GERAL",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "PSICOLOGIA",
+      "turno": "MANHÃ",
+      "profissional": "PSICÓLOGO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "HLA",
+      "setor": "PSICOLOGIA",
+      "turno": "TARDE",
+      "profissional": "PSICÓLOGO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI I",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI I",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI II",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI II",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "FERNANDO MEDEIROS",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "FERNANDO MEDEIROS",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UNIPOL",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UNIPOL",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CLÓVIS SARINHO",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CLÓVIS SARINHO",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "JOSÉ AMÉRICO",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "JOSÉ AMÉRICO",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 4.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 4.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CME",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CME",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "TC",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "RAIO-X",
+      "turno": "TARDE",
+      "profissional": "TÉCNICO DE RADIOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "FERNANDO MEDEIROS",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "FERNANDO MEDEIROS",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UNIPOL",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UNIPOL",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CLÓVIS SARINHO",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CLÓVIS SARINHO",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI I",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI I",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI II",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI II",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CENTRO CIRÚRGICO",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CME",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "CME",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "UTI I",
+      "turno": "MANHÃ",
+      "profissional": "DENTISTA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "JOSÉ TAVARES",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "JOSÉ TAVARES",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "PRONTO SOCORRO",
+      "turno": "MANHÃ",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "PRONTO SOCORRO",
+      "turno": "TARDE",
+      "profissional": "ENFERMEIRO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "SERVIÇO SOCIAL",
+      "turno": "TARDE",
+      "profissional": "ASSISTENTE SOCIAL",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "FARMÁCIA CLÍNICA",
+      "turno": "MANHÃ",
+      "profissional": "FARMACÊUTICO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "FARMÁCIA CLÍNICA",
+      "turno": "TARDE",
+      "profissional": "FARMACÊUTICO",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "NUTRIÇÃO CLÍNICA",
+      "turno": "MANHÃ",
+      "profissional": "NUTRICIONISTA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "NUTRIÇÃO CLÍNICA",
+      "turno": "TARDE",
+      "profissional": "NUTRICIONISTA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "PSICOLOGIA",
+      "turno": "MANHÃ",
+      "profissional": "PSICOLOGIA",
+      "capacidade": 2.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    },
+    {
+      "unidade": "POL",
+      "setor": "PSICOLOGIA",
+      "turno": "MANHÃ",
+      "profissional": "PSICOLOGIA",
+      "capacidade": 1.0,
+      "ocupacao": null,
+      "curso": "",
+      "tipo_ocupacao": "",
+      "alunos": [],
+      "periodo": ""
+    }
+  ],
   "MARÇO": [
+    {
+      "unidade": "CECAN",
+      "setor": "QUIMIOTERAPIA",
+      "turno": "MANHÃ",
+      "profissional": "TÉCNICO DE ENFERMAGEM",
+      "capacidade": 2.0,
+      "ocupacao": 2.0,
+      "curso": "ONCOLOGIA P/ TÉCNICOS",
+      "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
+      "periodo": "03/03/2026 - 07/04/2026"
+    },
     {
       "unidade": "CECAN",
       "setor": "QUIMIOTERAPIA",
@@ -9,6 +2893,7 @@
       "ocupacao": 2.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -20,6 +2905,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -31,6 +2917,7 @@
       "ocupacao": 2.0,
       "curso": "DIAGNÓSTICO POR IMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/02/2026 - 10/04/2026"
     },
     {
@@ -42,6 +2929,7 @@
       "ocupacao": 1.0,
       "curso": "DIAGNÓSTICO POR IMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/02/2026 - 10/04/2026"
     },
     {
@@ -53,6 +2941,7 @@
       "ocupacao": 1.0,
       "curso": "DIAGNÓSTICO POR IMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/02/2026 - 23/04/2026"
     },
     {
@@ -64,6 +2953,7 @@
       "ocupacao": 2.0,
       "curso": "DIAGNÓSTICO POR IMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/02/2026 - 10/04/2026"
     },
     {
@@ -75,6 +2965,7 @@
       "ocupacao": 2.0,
       "curso": "DIAGNÓSTICO POR IMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/02/2026 - 10/04/2026"
     },
     {
@@ -86,6 +2977,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -97,6 +2989,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -108,6 +3001,7 @@
       "ocupacao": 4.0,
       "curso": "ESTAGIÁRIO DE RADIOLOGIA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 -29/05/2026"
     },
     {
@@ -119,6 +3013,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -130,6 +3025,7 @@
       "ocupacao": 4.0,
       "curso": "ESTAGIÁRIO DE RADIOLOGIA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 -29/05/2026"
     },
     {
@@ -141,6 +3037,7 @@
       "ocupacao": 1.0,
       "curso": "DIAGNÓSTICO POR IMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/02/2026 - 10/04/2026"
     },
     {
@@ -152,6 +3049,7 @@
       "ocupacao": 1.0,
       "curso": "DIAGNÓSTICO POR IMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/02/2026 - 10/04/2026"
     },
     {
@@ -163,6 +3061,7 @@
       "ocupacao": 1.0,
       "curso": "DIAGNÓSTICO POR IMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/02/2026 - 10/04/2026"
     },
     {
@@ -174,6 +3073,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -185,6 +3085,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -196,6 +3097,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -207,6 +3109,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -218,6 +3121,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -229,6 +3133,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -240,6 +3145,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE BIOMEDICINA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 03/07/2026"
     },
     {
@@ -251,6 +3157,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE BIOMEDICINA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 30/06/2026"
     },
     {
@@ -262,6 +3169,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -273,6 +3181,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -284,6 +3193,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -295,6 +3205,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -306,6 +3217,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -317,6 +3229,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -328,6 +3241,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -339,6 +3253,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -350,6 +3265,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -361,6 +3277,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -372,6 +3289,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -383,6 +3301,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -394,6 +3313,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -405,6 +3325,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -416,6 +3337,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -427,6 +3349,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -438,6 +3361,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -449,6 +3373,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -460,6 +3385,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -471,6 +3397,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -482,6 +3409,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -493,6 +3421,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -504,6 +3433,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -515,6 +3445,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -526,6 +3457,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -537,6 +3469,7 @@
       "ocupacao": 2.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -548,6 +3481,7 @@
       "ocupacao": 3.0,
       "curso": "INSTRUMENTAÇÃO CIRÚRGICA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "10/03/2026 - 23/03/2026"
     },
     {
@@ -559,6 +3493,7 @@
       "ocupacao": 3.0,
       "curso": "INSTRUMENTAÇÃO CIRÚRGICA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "10/03/2026 - 23/03/2026"
     },
     {
@@ -570,6 +3505,7 @@
       "ocupacao": 2.0,
       "curso": "INSTRUMENTAÇÃO CIRÚRGICA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "10/03/2026 - 23/03/2026"
     },
     {
@@ -581,6 +3517,7 @@
       "ocupacao": 1.0,
       "curso": "INSTRUMENTAÇÃO CIRÚRGICA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "10/03/2026 - 23/03/2026"
     },
     {
@@ -592,6 +3529,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE RADIOLOGIA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 -30/03/2026"
     },
     {
@@ -603,6 +3541,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -614,6 +3553,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE RADIOLOGIA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 -30/03/2026"
     },
     {
@@ -625,6 +3565,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE RADIOLOGIA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 -30/03/2026"
     },
     {
@@ -636,6 +3577,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -647,6 +3589,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -658,6 +3601,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -669,6 +3613,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -680,6 +3625,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE ENFERMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 24/04/2026"
     },
     {
@@ -691,6 +3637,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE ENFERMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 24/04/2026"
     },
     {
@@ -702,6 +3649,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -713,6 +3661,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -724,6 +3673,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -735,6 +3685,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE ENFERMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 24/04/2026"
     },
     {
@@ -746,6 +3697,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE ENFERMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 24/04/2026"
     },
     {
@@ -757,6 +3709,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -768,6 +3721,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE ENFERMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 24/04/2026"
     },
     {
@@ -779,6 +3733,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE ENFERMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 24/04/2026"
     },
     {
@@ -790,6 +3745,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE ENFERMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 24/04/2026"
     },
     {
@@ -801,6 +3757,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -812,6 +3769,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -823,6 +3781,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -834,6 +3793,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -845,6 +3805,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -856,6 +3817,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -867,6 +3829,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -878,6 +3841,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE FARMÁCIA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 15/05/2026"
     },
     {
@@ -889,6 +3853,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -900,6 +3865,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -911,6 +3877,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -922,6 +3889,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE NUTRIÇÃO",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 30/04/2026"
     },
     {
@@ -933,6 +3901,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -944,6 +3913,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -955,6 +3925,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -966,6 +3937,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -977,6 +3949,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -988,6 +3961,7 @@
       "ocupacao": 6.0,
       "curso": "PSICO ONCOLOGIA (2)/ESTÁGIÁRIO DE PSICOLOGIA (2)/RESIDENTE (2)",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "17/11/2026-14/04/2026"
     },
     {
@@ -999,6 +3973,7 @@
       "ocupacao": 4.0,
       "curso": "PSICO ONCOLOGIA (2)/RESIDENTE (2)",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "17/11/2026-14/04/2026"
     },
     {
@@ -1010,6 +3985,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -1021,6 +3997,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -1032,6 +4009,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1043,6 +4021,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1054,6 +4033,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -1065,6 +4045,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -1076,6 +4057,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -1087,6 +4069,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -1098,6 +4081,7 @@
       "ocupacao": 1.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -1109,6 +4093,7 @@
       "ocupacao": 2.0,
       "curso": "ONCOLOGIA P/ TÉCNICOS",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "03/03/2026 - 07/04/2026"
     },
     {
@@ -1120,6 +4105,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1131,6 +4117,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1142,6 +4129,7 @@
       "ocupacao": 4.0,
       "curso": "INSTRUMENTAÇÃO CIRÚRGICA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "10/03/2026 - 23/03/2026"
     },
     {
@@ -1153,6 +4141,7 @@
       "ocupacao": 4.0,
       "curso": "INSTRUMENTAÇÃO CIRÚRGICA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "10/03/2026 - 23/03/2026"
     },
     {
@@ -1164,6 +4153,7 @@
       "ocupacao": 2.0,
       "curso": "INSTRUMENTAÇÃO CIRÚRGICA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "10/03/2026 - 23/03/2026"
     },
     {
@@ -1175,6 +4165,7 @@
       "ocupacao": 2.0,
       "curso": "INSTRUMENTAÇÃO CIRÚRGICA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "10/03/2026 - 23/03/2026"
     },
     {
@@ -1186,6 +4177,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1197,6 +4189,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1208,6 +4201,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE ENFERMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 24/04/2026"
     },
     {
@@ -1219,6 +4213,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE ENFERMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 24/04/2026"
     },
     {
@@ -1230,6 +4225,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE ENFERMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 24/04/2026"
     },
     {
@@ -1241,6 +4237,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE ENFERMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 24/04/2026"
     },
     {
@@ -1252,6 +4249,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE ENFERMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 24/04/2026"
     },
     {
@@ -1263,6 +4261,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE ENFERMAGEM",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 24/04/2026"
     },
     {
@@ -1274,6 +4273,7 @@
       "ocupacao": 1.0,
       "curso": "ALTA COMPLEXIDADE",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "18/02/2026-10/03/2026"
     },
     {
@@ -1285,6 +4285,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1296,6 +4297,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1307,6 +4309,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1318,6 +4321,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1329,6 +4333,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1340,6 +4345,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1351,6 +4357,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1362,6 +4369,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1373,6 +4381,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1384,6 +4393,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1395,6 +4405,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1406,6 +4417,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1417,6 +4429,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE SERVIÇO SOCIAL",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "PENDENTE"
     },
     {
@@ -1428,6 +4441,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1439,6 +4453,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1450,6 +4465,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1461,6 +4477,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE FARMÁCIA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 08/05/2026"
     },
     {
@@ -1472,6 +4489,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE NUTRIÇÃO",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 30/04/2026"
     },
     {
@@ -1483,6 +4501,7 @@
       "ocupacao": 1.0,
       "curso": "ESTAGIÁRIO DE NUTRIÇÃO",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "02/03/2026 - 30/04/2026"
     },
     {
@@ -1494,6 +4513,7 @@
       "ocupacao": 2.0,
       "curso": "PSICO ONCOLOGIA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "17/11/2026-14/04/2026"
     },
     {
@@ -1505,6 +4525,7 @@
       "ocupacao": 3.0,
       "curso": "PSICO ONCOLOGIA (1)/ESTAGIÁRIO DE PSICOLOGIA (2)",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "17/11/2026-14/04/2026"
     },
     {
@@ -1516,6 +4537,7 @@
       "ocupacao": 2.0,
       "curso": "PSICO ONCOLOGIA",
       "tipo_ocupacao": "PERMANENTE",
+      "alunos": [],
       "periodo": "17/11/2026-14/04/2026"
     },
     {
@@ -1527,6 +4549,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1538,6 +4561,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     },
     {
@@ -1549,1990 +4573,7 @@
       "ocupacao": 0.0,
       "curso": "",
       "tipo_ocupacao": "",
-      "periodo": ""
-    }
-  ],
-  "FEVEREIRO (PLANEJAMENTO)": [
-    {
-      "unidade": "CECAN",
-      "setor": "QUIMIOTERAPIA",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "RM",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "RM",
-      "turno": "INTERMEDIÁRIO",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "RM",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "RM",
-      "turno": "NOITE",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "MAMOGRAFIA",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "MAMOGRAFIA",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "DO",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "RI",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "RADIOTERAPIA",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 4.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "RADIOTERAPIA",
-      "turno": "INTERMEDIÁRIO",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 4.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "RADIOTERAPIA",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 4.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "QUIMIOTERAPIA",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "QUIMIOTERAPIA",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "RADIOTERAPIA",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 0.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "RADIOTERAPIA",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 0.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "PESQUISA CLÍNICA",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 0.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "PESQUISA CLÍNICA",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 0.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "MEDICINA NUCLEAR",
-      "turno": "MANHÃ",
-      "profissional": "BIOMEDICINA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "MEDICINA NUCLEAR",
-      "turno": "TARDE",
-      "profissional": "BIOMEDICINA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "MEDICINA NUCLEAR",
-      "turno": "MANHÃ",
-      "profissional": "FARMÁCIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "MEDICINA NUCLEAR",
-      "turno": "TARDE",
-      "profissional": "FARMÁCIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "MEDICINA NUCLEAR",
-      "turno": "MANHÃ",
-      "profissional": "NUTRIÇÃO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "MEDICINA NUCLEAR",
-      "turno": "TARDE",
-      "profissional": "NUTRIÇÃO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "MEDICINA NUCLEAR",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "MEDICINA NUCLEAR",
-      "turno": "TARDE",
-      "profissional": "ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "FARMÁCIA CLÍNICA",
-      "turno": "MANHÃ",
-      "profissional": "FARMÁCIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "FARMÁCIA CLÍNICA",
-      "turno": "TARDE",
-      "profissional": "FARMÁCIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "FARMÁCIA MANIPULAÇÃO",
-      "turno": "MANHÃ",
-      "profissional": "FARMÁCIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "CECAN",
-      "setor": "FARMÁCIA MANIPULAÇÃO",
-      "turno": "TARDE",
-      "profissional": "FARMÁCIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CSO",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CSO",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "UCI",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "UCI",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "JOSÉ TAVARES",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "JOSÉ TAVARES",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "NOSSA SENHORA DE FÁTIMA",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "NOSSA SENHORA DE FÁTIMA",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CEMES",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CEMES",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "LIONS 1",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "LIONS 1",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "MARIA ALICE",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "MARIA ALICE",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "LIONS 2",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "LIONS 2",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "",
-      "turno": "",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 0.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CENTRO CIRÚRGICO",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 3.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CENTRO CIRÚRGICO",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 3.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CME",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CME",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "TC",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "TC",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "RAIO-X",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "RAIO-X",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CENTRO CIRÚRGICO",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 4.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CENTRO CIRÚRGICO",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 4.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CME",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CME",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CSO",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CSO",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "UCI",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "UCI",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "JOSÉ TAVARES",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "JOSÉ TAVARES",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "NOSSA SENHORA DE FÁTIMA",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "NOSSA SENHORA DE FÁTIMA",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CEMES",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CEMES",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "LIONS 1",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "LIONS 1",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "MARIA ALICE",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "MARIA ALICE",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "LIONS 2",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "LIONS 2",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CENTRO CIRÚRGICO",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CENTRO CIRÚRGICO",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CME",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "CME",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "FISIOTERAPIA",
-      "turno": "MANHÃ",
-      "profissional": "FISIOTERAPEUTA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "FISIOTERAPIA",
-      "turno": "TARDE",
-      "profissional": "FISIOTERAPEUTA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "FARMÁCIA CLÍNICA",
-      "turno": "MANHÃ",
-      "profissional": "FARMACÊUTICO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "FARMÁCIA CLÍNICA",
-      "turno": "TARDE",
-      "profissional": "FARMACÊUTICO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "FARMÁCIA MANIPULAÇÃO",
-      "turno": "MANHÃ",
-      "profissional": "FARMACÊUTICO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "FARMÁCIA MANIPULAÇÃO",
-      "turno": "TARDE",
-      "profissional": "FARMACÊUTICO",
-      "capacidade": 0.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "NUTRIÇÃO CLÍNICA",
-      "turno": "MANHÃ",
-      "profissional": "NUTRICIONISTA",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "NUTRIÇÃO CLÍNICA",
-      "turno": "TARDE",
-      "profissional": "NUTRICIONISTA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "NUTRIÇÃO PRODUÇÃO",
-      "turno": "MANHÃ",
-      "profissional": "NUTRICIONISTA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "NUTRIÇÃO PRODUÇÃO",
-      "turno": "TARDE",
-      "profissional": "NUTRICIONISTA",
-      "capacidade": 0.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "IMAGEM GERAL",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "IMAGEM GERAL",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "PSICOLOGIA",
-      "turno": "MANHÃ",
-      "profissional": "PSICÓLOGO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "HLA",
-      "setor": "PSICOLOGIA",
-      "turno": "TARDE",
-      "profissional": "PSICÓLOGO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI I",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI I",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI II",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI II",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "FERNANDO MEDEIROS",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "FERNANDO MEDEIROS",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UNIPOL",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UNIPOL",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CLÓVIS SARINHO",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CLÓVIS SARINHO",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "JOSÉ AMÉRICO",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "JOSÉ AMÉRICO",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CENTRO CIRÚRGICO",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 4.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CENTRO CIRÚRGICO",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 4.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CME",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CME",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "TC",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "RAIO-X",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "FERNANDO MEDEIROS",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "FERNANDO MEDEIROS",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UNIPOL",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UNIPOL",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CLÓVIS SARINHO",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CLÓVIS SARINHO",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI I",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI I",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI II",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI II",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CENTRO CIRÚRGICO",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CENTRO CIRÚRGICO",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CME",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CME",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI I",
-      "turno": "MANHÃ",
-      "profissional": "DENTISTA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "JOSÉ TAVARES",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "JOSÉ TAVARES",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "PRONTO SOCORRO",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "PRONTO SOCORRO",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "SERVIÇO SOCIAL",
-      "turno": "TARDE",
-      "profissional": "ASSISTENTE SOCIAL",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "FARMÁCIA CLÍNICA",
-      "turno": "MANHÃ",
-      "profissional": "FARMACÊUTICO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "FARMÁCIA CLÍNICA",
-      "turno": "TARDE",
-      "profissional": "FARMACÊUTICO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "NUTRIÇÃO CLÍNICA",
-      "turno": "MANHÃ",
-      "profissional": "NUTRICIONISTA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "NUTRIÇÃO CLÍNICA",
-      "turno": "TARDE",
-      "profissional": "NUTRICIONISTA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "PSICOLOGIA",
-      "turno": "MANHÃ",
-      "profissional": "PSICOLOGIA",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "PSICOLOGIA",
-      "turno": "MANHÃ",
-      "profissional": "PSICOLOGIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    }
-  ],
-  "JANEIRO(PLANEJAMENTO)": [
-    {
-      "unidade": "POL",
-      "setor": "UTI I",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI II",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI II",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "FERNANDO MEDEIROS",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "FERNANDO MEDEIROS",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UNIPOL",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UNIPOL",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CLÓVIS SARINHO",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CLÓVIS SARINHO",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "JOSÉ AMÉRICO",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "JOSÉ AMÉRICO",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CENTRO CIRÚRGICO",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 4.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CENTRO CIRÚRGICO",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 4.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CME",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CME",
-      "turno": "MANHÃ",
-      "profissional": "TÉCNICO DE ENFERMAGEM",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "TC",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "RAIO-X",
-      "turno": "TARDE",
-      "profissional": "TÉCNICO DE RADIOLOGIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "FERNANDO MEDEIROS",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "FERNANDO MEDEIROS",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UNIPOL",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UNIPOL",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CLÓVIS SARINHO",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CLÓVIS SARINHO",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI I",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI I",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI II",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI II",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CENTRO CIRÚRGICO",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CENTRO CIRÚRGICO",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CME",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "CME",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "UTI I",
-      "turno": "MANHÃ",
-      "profissional": "DENTISTA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "JOSÉ TAVARES",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "JOSÉ TAVARES",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "PRONTO SOCORRO",
-      "turno": "MANHÃ",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "PRONTO SOCORRO",
-      "turno": "TARDE",
-      "profissional": "ENFERMEIRO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "SERVIÇO SOCIAL",
-      "turno": "TARDE",
-      "profissional": "ASSISTENTE SOCIAL",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "FARMÁCIA CLÍNICA",
-      "turno": "MANHÃ",
-      "profissional": "FARMACÊUTICO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "FARMÁCIA CLÍNICA",
-      "turno": "TARDE",
-      "profissional": "FARMACÊUTICO",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "NUTRIÇÃO CLÍNICA",
-      "turno": "MANHÃ",
-      "profissional": "NUTRICIONISTA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "NUTRIÇÃO CLÍNICA",
-      "turno": "TARDE",
-      "profissional": "NUTRICIONISTA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "PSICOLOGIA",
-      "turno": "MANHÃ",
-      "profissional": "PSICOLOGIA",
-      "capacidade": 2.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
-      "periodo": ""
-    },
-    {
-      "unidade": "POL",
-      "setor": "PSICOLOGIA",
-      "turno": "MANHÃ",
-      "profissional": "PSICOLOGIA",
-      "capacidade": 1.0,
-      "ocupacao": null,
-      "curso": "",
-      "tipo_ocupacao": "",
+      "alunos": [],
       "periodo": ""
     }
   ]

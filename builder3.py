@@ -1657,19 +1657,6 @@ function buildSectorPanel(unit, setor){
       const hasAct = isActive(row.periodo);
       const isOver = rOcc!==null && rOcc > rCap;
 
-      // Build seats
-      let seats='';
-      const displayCap = Math.max(rCap, rOcc||0);
-      for(let i=1;i<=displayCap;i++){
-        let seatClass='free', seatLabel=i+'';
-        if(rOcc===null){ seatClass='ln'; }
-        else if(i<=rOcc && i<=rCap){ seatClass='occ'; }
-        else if(i>rCap){ seatClass='over'; seatLabel='!'; }
-        const seatDelay=((i-1)*0.028).toFixed(3);
-        seats+=`<div class="seat ${seatClass}" style="animation-delay:${seatDelay}s" title="${seatClass==='occ'?'Ocupado':seatClass==='free'?'Disponível':'Excede cap.'}">
-          <span class="seat-num">${seatLabel}</span>
-        </div>`;
-      }
 
       const actBadge=hasAct?`<div class="prof-active"><div class="apd"></div>ATIVO</div>`:'';
       const courseTxt=row.curso?`<div class="prof-course"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> ${row.curso}</div>`:'';

@@ -2,6 +2,23 @@ import openpyxl
 import json
 
 # ─────────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────────
+# 0. HELPERS
+# ─────────────────────────────────────────────────────────────────
+def parse_alunos(val):
+    if not val or not isinstance(val, str):
+        return []
+    val = val.strip()
+    if val.startswith('{') and val.endswith('}'):
+        # Ex: {"João"; "Maria"}
+        inner = val[1:-1].strip()
+        # Split by ;
+        parts = inner.split(';')
+        # Clean up quotes and whitespace
+        return [p.replace('"', '').strip() for p in parts if p.strip()]
+    return []
+
+# ─────────────────────────────────────────────────────────────────
 # 1. READ EXCEL
 # ─────────────────────────────────────────────────────────────────
 wb = openpyxl.load_workbook('C:/Users/l5857/TCC - LETICIA/MAPEAMENTO DE CAMPO PRÁTICO (1).xlsx')
@@ -15,6 +32,10 @@ for sheet_name in wb.sheetnames:
             continue
         if not row[0] or row[0] == 'UNIDADE':
             continue
+        
+        raw_h = str(row[7]).strip() if row[7] else ''
+        alunos_list = parse_alunos(raw_h)
+        
         records.append({
             'unidade':      str(row[0]).strip() if row[0] else '',
             'setor':        str(row[1]).strip() if row[1] else '',
@@ -23,7 +44,8 @@ for sheet_name in wb.sheetnames:
             'capacidade':   float(row[4]) if row[4] is not None else 0,
             'ocupacao':     float(row[5]) if row[5] is not None else None,
             'curso':        str(row[6]).strip() if row[6] else '',
-            'tipo_ocupacao':str(row[7]).strip() if row[7] else '',
+            'tipo_ocupacao': raw_h if not alunos_list else 'ALUNOS LISTADOS',
+            'alunos':       alunos_list,
             'periodo':      str(row[8]).strip() if row[8] else '',
         })
     all_data[sheet_name] = records
@@ -304,6 +326,13 @@ html = f"""<!DOCTYPE html>
     .kpi-grid {{ grid-template-columns:repeat(2,1fr); }}
     .legend {{ display:none; }}
   }}
+  /* ── STUDENTS BADGE ── */
+  .student-list { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+  .student-badge {
+    font-size: .65rem; padding: 2px 6px; border-radius: 4px;
+    background: rgba(99, 102, 241, 0.15); color: #a5b4fc;
+    border: 1px solid rgba(99, 102, 241, 0.3);
+  }
 </style>
 </head>
 <body>
@@ -633,7 +662,12 @@ function showTooltip(e, el) {{
       const pct2 = r.capacidade>0 && r.ocupacao!==null ? Math.min(100,Math.round((r.ocupacao/r.capacidade)*100)) : 0;
       const extra = r.curso ? `<div style="font-size:.7rem;color:#a5b4fc;margin-top:2px">📚 ${{r.curso}}</div>` : '';
       const periodo = r.periodo ? `<div style="font-size:.7rem;color:#94a3b8;margin-top:1px">📅 ${{r.periodo}}</div>` : '';
-      return `<div style="margin-bottom:6px">
+      
+      const students = r.alunos && r.alunos.length > 0 
+        ? `<div class="student-list">${{r.alunos.map(a => `<span class="student-badge">👤 ${{a}}</span>`).join('')}}</div>`
+        : '';
+
+      return `<div style="margin-bottom:10px">
         <div style="display:flex;justify-content:space-between;align-items:center">
           <span style="font-size:.72rem;color:#e2e8f0">${{r.profissional}}</span>
           <span style="font-size:.72rem;font-weight:700;color:${{tColor}}">${{occ}}/${{r.capacidade}}</span>
@@ -641,7 +675,7 @@ function showTooltip(e, el) {{
         <div style="height:3px;background:rgba(255,255,255,.08);border-radius:2px;margin-top:3px">
           <div style="height:100%;width:${{pct2}}%;background:${{tColor}};border-radius:2px"></div>
         </div>
-        ${{extra}}${{periodo}}
+        ${{extra}}${{periodo}}${{students}}
       </div>`;
     }}).join('');
     

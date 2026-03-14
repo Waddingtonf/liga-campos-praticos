@@ -46,6 +46,20 @@ def _to_float(val: str):
         return None
 
 
+def parse_alunos(val):
+    if not val or not isinstance(val, str):
+        return []
+    val = val.strip()
+    if val.startswith('{') and val.endswith('}'):
+        # Ex: {"João"; "Maria"}
+        inner = val[1:-1].strip()
+        # Split by ;
+        parts = inner.split(';')
+        # Clean up quotes and whitespace
+        return [p.replace('"', '').strip() for p in parts if p.strip()]
+    return []
+
+
 def _parse_sheet(rows: list[list[str]]) -> list[dict]:
     """
     Linha 0 → título (ignorar)
@@ -57,7 +71,7 @@ def _parse_sheet(rows: list[list[str]]) -> list[dict]:
         if i < 2:
             continue
         row = (row + [""] * 10)[:10]
-        unidade, setor, turno, prof, cap_s, occ_s, curso, aluno, tipo, periodo = row
+        unidade, setor, turno, prof, cap_s, occ_s, curso, aluno_raw, tipo, periodo = row
 
         unidade = unidade.strip().upper()
         if not unidade or unidade in ("UNIDADE", "UNNAMED: 0"):
@@ -70,6 +84,8 @@ def _parse_sheet(rows: list[list[str]]) -> list[dict]:
 
         cap = _to_float(cap_s)
         occ = _to_float(occ_s)
+        
+        alunos_list = parse_alunos(aluno_raw)
 
         data.append({
             "unidade":       unidade,
@@ -79,9 +95,10 @@ def _parse_sheet(rows: list[list[str]]) -> list[dict]:
             "capacidade":    cap if cap is not None else 0.0,
             "ocupacao":      occ,
             "curso":         curso.strip(),
-            "tipo_ocupacao": tipo.strip(),
+            "tipo_ocupacao": tipo.strip() if not alunos_list else "ALUNOS LISTADOS",
             "periodo":       periodo.strip(),
-            "aluno":         aluno.strip(),
+            "aluno":         aluno_raw.strip(),
+            "alunos":        alunos_list,
         })
     return data
 

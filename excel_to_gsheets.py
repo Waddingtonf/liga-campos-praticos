@@ -15,7 +15,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CRED_PATH = os.path.join(BASE_DIR, 'gen-lang-client-0965804770-1b0674d6e028.json')
 
 # URL do site deployed (Vercel/Render) para limpar o cache automaticamente
-LIVE_SITE_URL = "https://liga-campos-praticos.vercel.app" # Ajuste se o domínio for diferente
+LIVE_SITE_URL = "https://liga-campos-praticos.vercel.app" 
 
 def sync():
     print(f"Lendo Excel: {EXCEL_FILE}...")
@@ -42,24 +42,60 @@ def sync():
         print(f"  -> Sincronizando aba: {tab_name}")
         excel_sheet = wb[tab_name]
         
-        # Extrair dados do Excel (todas as linhas e colunas)
-        data = []
-        for row in excel_sheet.iter_rows(values_only=True):
-            # Converter valores para string para evitar problemas de serialização no gspread
-            data.append([str(cell) if cell is not None else "" for cell in row])
-        
-        # Abrir ou criar a aba no Google Sheets
+        # 1. Tentar ler dados atuais do Google Sheets para preservar ALUNOS
+        existing_students = {} # Key: (Unidade, Setor, Turno, Prof) -> Value: Alunos
         try:
             worksheet = sh.worksheet(tab_name)
+            current_gs_data = worksheet.get_all_values()
+            # Pular cabeçalhos (Linhas 0 e 1 no app.py)
+            for i, row in enumerate(current_gs_data):
+                if i < 2: continue
+                # Colunas: 0:UNIT, 1:SETOR, 2:TURNO, 3:PROF, ..., 7:ALUNOS
+                if len(row) > 7:
+                    key = (row[0].strip().upper(), row[1].strip().upper(), row[2].strip().upper(), row[3].strip().upper())
+                    students = row[7].strip()
+                    if students and students not in ("None", ""):
+                        existing_students[key] = students
         except gspread.exceptions.WorksheetNotFound:
-            print(f"  + Criando aba '{tab_name}' no Google Sheets...")
+            print(f"  + Aba '{tab_name}' não existe no Google Sheets. Será criada.")
             worksheet = sh.add_worksheet(title=tab_name, rows="100", cols="20")
+        except Exception as e:
+            print(f"  ! Aviso: Não foi possível ler dados atuais para preservar alunos: {e}")
+
+        # 2. Extrair dados do Excel e fazer o MERGE
+        final_data = []
+        for row in excel_sheet.iter_rows(values_only=True):
+            # No dashboard LIGA, as colunas esperadas são:
+            # 0: UNIDADE | 1: SETOR | 2: TURNO | 3: PROFISSIONAL | 4: CAPACIDADE | 5: OCUPAÇÃO | 6: CURSO | 7: ALUNO (LISTA) | 8: TIPO | 9: PERÍODO
+            row_list = [str(cell) if cell is not None else "" for cell in row]
             
-        # Limpar e atualizar dados
+            # Garantir 10 colunas
+            if len(row_list) < 10:
+                row_list += [""] * (10 - len(row_list))
+            
+            row_list = row_list[:10]
+            
+            # Se for linha de dados (não título nem cabeçalho vazios)
+            if row_list[0] and row_list[0].upper() not in ("UNIDADE", "MAPEAMENTO DE CAMPO PRÁTICO"):
+                # Se a célula na coluna H (índice 7) do Excel NÃO estiver no formato {"..."}, 
+                # mas tivermos algo vindo do Google Sheets, preservamos o do Sheets.
+                # Caso contrário, mantemos o que está no Excel (que agora suporta o formato {"..."})
+                key = (row_list[0].strip().upper(), row_list[1].strip().upper(), row_list[2].strip().upper(), row_list[3].strip().upper())
+                
+                # Prioridade: se o Excel já tem o formato {"..."}, usamos ele.
+                # Se não tem, e o Sheets tem algo salvo, usamos o do Sheets.
+                excel_val = row_list[7].strip()
+                if not (excel_val.startswith('{') and excel_val.endswith('}')):
+                    if key in existing_students:
+                        row_list[7] = existing_students[key]
+            
+            final_data.append(row_list)
+            
+        # 3. Limpar e atualizar dados
         worksheet.clear()
-        if data:
-            worksheet.update('A1', data)
-            print(f"  ✓ {len(data)} linhas sincronizadas.")
+        if final_data:
+            worksheet.update('A1', final_data)
+            print(f"  ✓ {len(final_data)} linhas sincronizadas (Preservando coluna Aluno).")
 
     # --- REFRESH LIVE SITE CACHE ---
     if LIVE_SITE_URL:
