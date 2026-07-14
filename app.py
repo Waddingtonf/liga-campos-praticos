@@ -50,28 +50,38 @@ def parse_alunos(val):
     if not val or not isinstance(val, str):
         return []
     val = val.strip()
+    if not val or val.upper() in ("NONE", "N/A", "-", ""):
+        return []
     if val.startswith('{') and val.endswith('}'):
-        # Ex: {"João"; "Maria"}
-        inner = val[1:-1].strip()
-        # Split by ;
-        parts = inner.split(';')
-        # Clean up quotes and whitespace
-        return [p.replace('"', '').strip() for p in parts if p.strip()]
-    return []
+        val = val[1:-1].strip()
+    parts = val.split(';')
+    return [p.replace('"', '').strip() for p in parts if p.strip()]
 
 
 def _parse_sheet(rows: list[list[str]]) -> list[dict]:
     """
     Linha 0 → título (ignorar)
-    Linha 1 → cabeçalhos (ignorar)
+    Linha 1 → cabeçalhos (usar para detecção de colunas)
     Linha 2+ → dados
     """
+    if len(rows) < 2:
+        return []
+
+    # Detectar se existe coluna ALUNOS nos cabeçalhos
+    header = [str(h).strip().upper() for h in rows[1]]
+    has_alunos = "ALUNOS" in header or "ALUNO" in header
+
     data = []
     for i, row in enumerate(rows):
         if i < 2:
             continue
         row = (row + [""] * 10)[:10]
-        unidade, setor, turno, prof, cap_s, occ_s, curso, aluno_raw, tipo, periodo = row
+        
+        if has_alunos:
+            unidade, setor, turno, prof, cap_s, occ_s, curso, aluno_raw, tipo, periodo = row
+        else:
+            unidade, setor, turno, prof, cap_s, occ_s, curso, tipo, periodo = row[:9]
+            aluno_raw = ""
 
         unidade = unidade.strip().upper()
         if not unidade or unidade in ("UNIDADE", "UNNAMED: 0"):

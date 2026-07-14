@@ -9,14 +9,12 @@ def parse_alunos(val):
     if not val or not isinstance(val, str):
         return []
     val = val.strip()
+    if not val or val.upper() in ("NONE", "N/A", "-", ""):
+        return []
     if val.startswith('{') and val.endswith('}'):
-        # Ex: {"João"; "Maria"}
-        inner = val[1:-1].strip()
-        # Split by ;
-        parts = inner.split(';')
-        # Clean up quotes and whitespace
-        return [p.replace('"', '').strip() for p in parts if p.strip()]
-    return []
+        val = val[1:-1].strip()
+    parts = val.split(';')
+    return [p.replace('"', '').strip() for p in parts if p.strip()]
 
 all_sheets_data = {}
 

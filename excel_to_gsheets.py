@@ -3,6 +3,10 @@ import openpyxl
 import gspread
 from google.oauth2.service_account import Credentials
 
+import sys
+if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8','utf8'):
+    sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf-8', buffering=1)
+
 # --- CONFIG ---
 EXCEL_FILE = 'MAPEAMENTO DE CAMPO PRÁTICO (1).xlsx'
 SHEET_ID = "1SFRlXmO_xmcD1HGnMN4LmALch2tkKGNlGFoOHtu5VYM"
@@ -64,30 +68,54 @@ def sync():
 
         # 2. Extrair dados do Excel e fazer o MERGE
         final_data = []
-        for row in excel_sheet.iter_rows(values_only=True):
-            # No dashboard LIGA, as colunas esperadas são:
-            # 0: UNIDADE | 1: SETOR | 2: TURNO | 3: PROFISSIONAL | 4: CAPACIDADE | 5: OCUPAÇÃO | 6: CURSO | 7: ALUNO (LISTA) | 8: TIPO | 9: PERÍODO
-            row_list = [str(cell) if cell is not None else "" for cell in row]
+        for r_idx, row in enumerate(excel_sheet.iter_rows(values_only=True)):
+            row_clean = [str(cell) if cell is not None else "" for cell in row]
             
-            # Garantir 10 colunas
-            if len(row_list) < 10:
-                row_list += [""] * (10 - len(row_list))
+            # Garantir pelo menos 9 colunas para evitar IndexError
+            if len(row_clean) < 9:
+                row_clean += [""] * (9 - len(row_clean))
             
-            row_list = row_list[:10]
+            first_cell = row_clean[0].strip().upper()
             
-            # Se for linha de dados (não título nem cabeçalho vazios)
-            if row_list[0] and row_list[0].upper() not in ("UNIDADE", "MAPEAMENTO DE CAMPO PRÁTICO"):
-                # Se a célula na coluna H (índice 7) do Excel NÃO estiver no formato {"..."}, 
-                # mas tivermos algo vindo do Google Sheets, preservamos o do Sheets.
-                # Caso contrário, mantemos o que está no Excel (que agora suporta o formato {"..."})
-                key = (row_list[0].strip().upper(), row_list[1].strip().upper(), row_list[2].strip().upper(), row_list[3].strip().upper())
+            if r_idx == 0:
+                # Linha de título
+                row_list = (row_clean + [""] * 10)[:10]
+            elif first_cell == "UNIDADE":
+                # Forçar cabeçalho unificado de 10 colunas
+                row_list = [
+                    "UNIDADE", "SETOR", "TURNO", "PROFISSIONAL", 
+                    "CAPACIDADE", "OCUPAÇÃO", "CURSO", "ALUNOS", 
+                    "TIPO DE OCUPAÇÃO", "PERÍODO"
+                ]
+            elif not row_clean[0] and not row_clean[1]:
+                # Ignorar linhas completamente vazias
+                row_list = [""] * 10
+            else:
+                # Mapeamento do Excel (9 colunas) para o Google Sheets (10 colunas)
+                unidade, setor, turno, prof, cap_s, occ_s, curso, col7_val, col8_val = row_clean[:9]
                 
-                # Prioridade: se o Excel já tem o formato {"..."}, usamos ele.
-                # Se não tem, e o Sheets tem algo salvo, usamos o do Sheets.
-                excel_val = row_list[7].strip()
-                if not (excel_val.startswith('{') and excel_val.endswith('}')):
+                col7_val = col7_val.strip()
+                col8_val = col8_val.strip()
+                
+                if col7_val.startswith('{') and col7_val.endswith('}'):
+                    alunos_val = col7_val
+                    tipo_val = ""
+                else:
+                    alunos_val = ""
+                    tipo_val = col7_val
+                
+                periodo_val = col8_val
+                
+                # Preservação de alunos existentes no Sheets
+                key = (unidade.strip().upper(), setor.strip().upper(), turno.strip().upper(), prof.strip().upper())
+                if not (alunos_val.startswith('{') and alunos_val.endswith('}')):
                     if key in existing_students:
-                        row_list[7] = existing_students[key]
+                        alunos_val = existing_students[key]
+                
+                row_list = [
+                    unidade, setor, turno, prof, cap_s, occ_s, 
+                    curso, alunos_val, tipo_val, periodo_val
+                ]
             
             final_data.append(row_list)
             
